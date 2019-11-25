@@ -63,7 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActionTest.cs" />
+    <Compile Include="Assets\Scripts\PenControl.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/User/Desktop/Co-op_Team_Project/HDRP_CO_OP/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
