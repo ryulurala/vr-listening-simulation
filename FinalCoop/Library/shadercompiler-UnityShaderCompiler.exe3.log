@@ -1,40 +1,8 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=4 insize=18610 outsize=4952 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15603 outsize=46175 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15603 outsize=42889 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15603 outsize=74855 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15603 outsize=33829 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15603 outsize=57833 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=25750 outsize=15619 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=1326 outsize=666 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=9347 outsize=12684 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=9461 outsize=3340 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=4025 outsize=645 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=8644 outsize=660 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=3022 outsize=494 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=20668 outsize=27766 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=36515 outsize=36014 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=17606 outsize=7333 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=5065 outsize=4889 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=7700 outsize=5715 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=19711 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6186 outsize=810 kw=UNITY_PASS_SHADOWCASTER _NORMALMAP_TANGENT_SPACE _NORMALMAP _MASKMAP _MATERIAL_FEATURE_CLEAR_COAT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6573 outsize=1834 kw=UNITY_PASS_MOTIONVECTORS _NORMALMAP_TANGENT_SPACE _NORMALMAP _MASKMAP _MATERIAL_FEATURE_CLEAR_COAT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6573 outsize=1834 kw=UNITY_PASS_MOTIONVECTORS _MASKMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1

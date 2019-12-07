@@ -1,34 +1,6 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=4 insize=15603 outsize=113975 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15603 outsize=77296 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=25750 outsize=16121 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=9347 outsize=12677 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=7423 outsize=6586 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=13624 outsize=4058 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=2643 outsize=1197 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21554 outsize=14612 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=36515 outsize=35084 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=5065 outsize=898 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15717 outsize=7553 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=8970 outsize=4890 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=9814 outsize=2460 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=7700 outsize=4600 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=17632 outsize=635 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=5725 outsize=5009 ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7138 outsize=8322 kw=DECALS_3RT _NORMALMAP_TANGENT_SPACE _NORMALMAP _MASKMAP _MATERIAL_FEATURE_CLEAR_COAT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7138 outsize=5994 kw=DECALS_3RT _MASKMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
