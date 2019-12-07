@@ -6,87 +6,72 @@ public class ToggleControl : MonoBehaviour
 {
 
     // 학용품 소음
-    public void StationaryMany()
+    public void StationaryHigh()
     {
-        Debug.Log("StationaryMany()");
-        SoundManager.soundManager.stationarySpeed = 10.0f;
+        SoundManager.soundManager.stationarySpeed = 2;
     }
-    public void StationaryLess()
+    public void StationaryLow()
     {
-        Debug.Log("StationaryLess()");
-        SoundManager.soundManager.stationarySpeed = 5f;
+        SoundManager.soundManager.stationarySpeed = 1;
     }
-    public void StationaryEmpty()
+    public void StationaryZero()
     {
-        Debug.Log("StationaryEmpty()");
-        SoundManager.soundManager.stationarySpeed = 0f;
+        SoundManager.soundManager.stationarySpeed = 0;
     }
 
     // 감기 걸린 사람
-    public void ColdPeopleMore()
+    public void ColdPeopleHigh()
     {
-        Debug.Log("ColdPeopleMany()");
-        SoundManager.soundManager.sneezeSpeed = 10.0f;
+        SoundManager.soundManager.sneezeSpeed = 2;
     }
-    public void ColdPeopleLess()
+    public void ColdPeopleLow()
     {
-        Debug.Log("ColdPeopleLess()");
-        SoundManager.soundManager.sneezeSpeed = 5.0f;
+        SoundManager.soundManager.sneezeSpeed = 1;
     }
-    public void ColdPeopleEmpty()
+    public void ColdPeopleZero()
     {
-        Debug.Log("ColdPeopleEmpty()");
-        SoundManager.soundManager.sneezeSpeed = 0f;
+        SoundManager.soundManager.sneezeSpeed = 0;
     }
 
     // 조는 사람
-    public void SleepPeopleMany()
+    public void SleepPeopleHigh()
     {
-        Debug.Log("SleepPeopleMany()");
-        SoundManager.soundManager.yawnSpeed = 10.0f;
+        SoundManager.soundManager.yawnSpeed = 2;
     }
-    public void SleepPeopleLess()
+    public void SleepPeopleLow()
     {
-        Debug.Log("SleepPeopleLess()");
-        SoundManager.soundManager.yawnSpeed = 5.0f;
+        SoundManager.soundManager.yawnSpeed = 1;
     }
-    public void SleepPeopleEmpty()
+    public void SleepPeopleZero()
     {
-        Debug.Log("SleepPeopleEmpty()");
-        SoundManager.soundManager.yawnSpeed = 0f;
+        SoundManager.soundManager.yawnSpeed = 0;
     }
 
     // 바깥 자동차 소음
-    public void CarHornMany()
+    public void CarHornHigh()
     {
-        Debug.Log("CarHornMany()");
-        SoundManager.soundManager.carHornSpeed = 10.0f;
+        SoundManager.soundManager.carHornSpeed = 2;
     }
-    public void CarHornLess()
+    public void CarHornLow()
     {
-        Debug.Log("CarHornLess()");
-        SoundManager.soundManager.carHornSpeed = 5.0f;
+        SoundManager.soundManager.carHornSpeed = 1;
     }
-    public void CarHornEmpty()
+    public void CarHornZero()
     {
-        Debug.Log("CarHornEmpty");
-        SoundManager.soundManager.carHornSpeed = 0f;
+        SoundManager.soundManager.carHornSpeed = 0;
     }
 
     // 바깥 새 소음
-    public void BirdMany()
+    public void BirdHigh()
     {
-        Debug.Log("BirdMany()");
-        SoundManager.soundManager.birdSpeed = 10.0f;
+        SoundManager.soundManager.birdSpeed = 2;
     }
-    public void BirdLess()
+    public void BirdLow()
     {
-        Debug.Log("BirdLess()");
-        SoundManager.soundManager.birdSpeed = 5.0f;
+        SoundManager.soundManager.birdSpeed = 1;
     }
-    public void BirdEmpty()
+    public void BirdZero()
     {
-        Debug.Log("BirdEmpty()");
-        SoundManager.soundManager.birdSpeed = 0f;
+        SoundManager.soundManager.birdSpeed = 0;
     }
 }

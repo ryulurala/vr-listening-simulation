@@ -15,10 +15,6 @@ public class SliderControl : MonoBehaviour
     public void HeaterVolume()
     {
         airconditional.GetComponent<AudioSource>().volume = SoundManager.soundManager.heaterVolume = heater.value;
-        Debug.Log("heaterValue = " + heater.value);
-        Debug.Log("heaterVolume = " + SoundManager.soundManager.heaterVolume);
-        Debug.Log("airconVolume = " + airconditional.GetComponent<AudioSource>().volume);
-
     }
 
     // 영어 듣기 볼륨

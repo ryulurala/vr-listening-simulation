@@ -65,6 +65,7 @@
     <Compile Include="Assets\Coop\Script\ButtonClick.cs" />
     <Compile Include="Assets\Coop\Script\LaserGeneration.cs" />
     <Compile Include="Assets\Coop\Script\OptionUIManager.cs" />
+    <Compile Include="Assets\Coop\Script\PersonManager.cs" />
     <Compile Include="Assets\Coop\Script\SliderControl.cs" />
     <Compile Include="Assets\Coop\Script\SoundManager.cs" />
     <Compile Include="Assets\Coop\Script\StartUIManager.cs" />
