@@ -6,7 +6,12 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Sit_PenStroke
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pen
+    second: {fileID: 2100000, guid: 6f7f523ffca5ae34ebee0bf976c6ea74, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
