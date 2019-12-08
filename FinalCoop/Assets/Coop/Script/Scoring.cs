@@ -5,13 +5,12 @@ using UnityEngine.UI;
 
 public class Scoring : MonoBehaviour
 {
-    private Toggle userAnswer;
     private int[] correctAnswer = new int[18]; //실제 정답
-    public GameObject omr;
+    public GameObject omr; //OMR 오브젝트의 캔버스를 가져온다.
 
     void Start()
     {
-        correctAnswer[1] = 1;
+        correctAnswer[1] = 1; //정답 입력
         correctAnswer[2] = 2;
         correctAnswer[3] = 1;
         correctAnswer[4] = 3;
@@ -28,33 +27,20 @@ public class Scoring : MonoBehaviour
         correctAnswer[15] = 5;
         correctAnswer[16] = 1;
         correctAnswer[17] = 3;
+
+        scoreCheck(omr); //채점 함수 호출
     }
 
-    private void Update()
+    public void scoreCheck(GameObject OMR) //채점 함수
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            scoreCheck(omr);
-            Debug.Log("good!");
-        }
-    }
-
-    public void scoreCheck(GameObject OMR)
-    {
-        Debug.Log("aaa");
         for (int i = 1; i <= 17; i++) 
         {
-            Debug.Log("sssssssssssssssssssssss");
-            if (OMR.transform.GetChild(i).GetChild(correctAnswer[i] - 1).GetComponent<Toggle>().isOn)
+            if (OMR.transform.GetChild(i).GetChild(correctAnswer[i] - 1).GetComponent<Toggle>().isOn) //정답번호의 토글이 true면 정답, 아니면 오답
             {
-                Debug.Log("yes");
-
                 transform.GetChild(i + 1).GetComponent<AnswerCheck>().GoodAnswer();
             }
             else
             {
-                Debug.Log("no");
-
                 transform.GetChild(i + 1).GetComponent<AnswerCheck>().BadAnswer();
             }
         }
