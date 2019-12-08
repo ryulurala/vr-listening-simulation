@@ -17,7 +17,7 @@ public class SoundClip : MonoBehaviour
 
     public void InputSound()
     {
-        audioSource.clip = audioClips[(int)Random.Range(0, audioClips.Length)];
+        audioSource.clip = audioClips[(int)Random.Range(0, audioClips.Length+1)];
     }
 
     public void InputSound(int index)
