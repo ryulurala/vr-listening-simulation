@@ -62,11 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Coop\Script\AnswerCheck.cs" />
     <Compile Include="Assets\Coop\Script\ButtonClick.cs" />
     <Compile Include="Assets\Coop\Script\LaserGeneration.cs" />
+    <Compile Include="Assets\Coop\Script\LaserGenerationLeft.cs" />
     <Compile Include="Assets\Coop\Script\OptionUIManager.cs" />
     <Compile Include="Assets\Coop\Script\OutSideManager.cs" />
     <Compile Include="Assets\Coop\Script\PersonManager.cs" />
+    <Compile Include="Assets\Coop\Script\Scoring.cs" />
     <Compile Include="Assets\Coop\Script\SliderControl.cs" />
     <Compile Include="Assets\Coop\Script\SoundClip.cs" />
     <Compile Include="Assets\Coop\Script\SoundManager.cs" />

@@ -5,13 +5,11 @@ using UnityEngine.UI;
 
 public class ButtonClick : MonoBehaviour
 {
-    private Animator animator;
     private Toggle toggle;
     private Slider slider;
 
     private void Start()
     {
-        animator = gameObject.GetComponent<Animator>();
         toggle = gameObject.GetComponent<Toggle>();
 
         if(gameObject.name == "Slider")
@@ -20,8 +18,6 @@ public class ButtonClick : MonoBehaviour
 
     public void OnClick()
     {
-        //animator.SetBool("Pressed", true);
-
         switch (gameObject.name) //버튼마다 실행되는 함수가 달라지게 한다.
         {
             case "StartGame": //게임 스타트 버튼을 눌렀을 경우
@@ -46,6 +42,14 @@ public class ButtonClick : MonoBehaviour
             case "High":
             case "Low":
             case "Zero":
+                toggle.isOn = true;
+                break;
+
+            case "A1":
+            case "A2":
+            case "A3":
+            case "A4":
+            case "A5":
                 toggle.isOn = true;
                 break;
         }
