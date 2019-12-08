@@ -255,10 +255,10 @@
     <None Include="Assets\SteamVR\SteamVR.asmdef" />
     <None Include="Assets\SteamVR\InteractionSystem\Samples\Squishy\SquishyDeform.shader" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project/FinalCoop/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project - 복사본/FinalCoop/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project/FinalCoop/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project - 복사본/FinalCoop/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -453,10 +453,10 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project/FinalCoop/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project - 복사본/FinalCoop/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project/FinalCoop/Library/PackageCache/com.unity.render-pipelines.high-definition@6.9.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/Co-op_Team_Project - 복사본/FinalCoop/Library/PackageCache/com.unity.render-pipelines.high-definition@6.9.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

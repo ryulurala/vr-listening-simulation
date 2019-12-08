@@ -4,36 +4,57 @@ using UnityEngine;
 
 public class StudentControl : MonoBehaviour
 {
-    [Header("SFX Source")]
-    public AudioSource yawn;
-    public AudioSource sneeze;
-    public AudioSource paperFlip;
-    public AudioSource penDrop;
-    public AudioSource penStroke;
+    private AudioSource studentAudioSource;
+    private SoundClip soundClip;
+    private Animator animator;
 
-    public void YawnPlay()
+    void Start()
     {
-        yawn.Play();
+        studentAudioSource = gameObject.GetComponent<AudioSource>();
+        soundClip = gameObject.GetComponent<SoundClip>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
-    public void SneezePlay()
+    public void Yawn1Play()
     {
-        sneeze.Play();
+        soundClip.InputSound(5);
+        studentAudioSource.Play();
+
+    }
+    public void Yawn2Play()
+    {
+        soundClip.InputSound(6);
+        studentAudioSource.Play();
+    }
+
+    public void Sneeze1Play()
+    {
+        soundClip.InputSound(0);
+        studentAudioSource.Play();
+    }
+
+    public void Sneeze2Play()
+    {
+        soundClip.InputSound(1);
+        studentAudioSource.Play();
     }
 
     public void PaperFlipPlay()
     {
-        paperFlip.Play();
+        soundClip.InputSound(2);
+        studentAudioSource.Play();
     }
 
     public void PenDropPlay()
     {
-        penDrop.Play();
+        soundClip.InputSound(4);
+        studentAudioSource.Play();
     }
 
     public void PenStrokePlay()
     {
-        penStroke.Play();
+        soundClip.InputSound(3);
+        studentAudioSource.Play();
     }
 
 }

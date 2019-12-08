@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PersonManager : MonoBehaviour
 {
+    public GameObject[] students;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +17,5 @@ public class PersonManager : MonoBehaviour
     {
         
     }
+
 }
