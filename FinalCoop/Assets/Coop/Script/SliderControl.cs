@@ -14,6 +14,14 @@ public class SliderControl : MonoBehaviour
     // 히터 볼륨
     public void HeaterVolume()
     {
+        if (heater.value > 0)
+        {
+            airconditional.GetComponent<Animator>().enabled = true;
+        }
+        else
+        {
+            airconditional.GetComponent<Animator>().enabled = false;
+        }
         airconditional.GetComponent<AudioSource>().volume = SoundManager.soundManager.heaterVolume = heater.value;
     }
 
