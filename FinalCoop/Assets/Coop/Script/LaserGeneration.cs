@@ -36,7 +36,7 @@ public class LaserGeneration : MonoBehaviour
                 hitPoint = hit.point; //레이캐스트가 닿은 곳을 파악
                 ShowLaser(hit); //레이저 생성
 
-                if(TriggerCheck.GetState(handType)) //트리거를 누르면 실행
+                if(TriggerCheck.GetState(handType) && hit.transform.tag != "LaserRed") //트리거를 누르면 실행
                 {
                     hit.transform.GetComponent<ButtonClick>().OnClick();
                 }
@@ -51,6 +51,10 @@ public class LaserGeneration : MonoBehaviour
     private void ShowLaser(RaycastHit hit) //레이저 생성 함수
     {
         laser.SetActive(true);
+        if (hit.transform.tag == "LaserRed") //상호작용이 가능하면 빨간색 레이저 아니면 파란색 레이저
+            laser.GetComponent<MeshRenderer>().material.color = Color.red;
+        else
+            laser.GetComponent<MeshRenderer>().material.color = Color.blue;
         laser.transform.position = Vector3.Lerp(controllerPose.transform.position, hitPoint, 0.5f);
         laserTransform.LookAt(hitPoint);
         laserTransform.localScale = new Vector3(laserTransform.localScale.x, laserTransform.localScale.y, hit.distance);

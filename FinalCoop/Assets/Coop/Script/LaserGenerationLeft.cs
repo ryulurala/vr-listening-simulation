@@ -30,13 +30,13 @@ public class LaserGenerationLeft : MonoBehaviour
         if (TouchPadTouch.GetState(handType)) //왼손 혹은 오른손에서 터치 패드를 터치하고 있는지 확인
         {
             RaycastHit hit;
-            Debug.Log("dd");
+
             if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit)) //레이캐스트 확인
             {
                 hitPoint = hit.point; //레이캐스트가 닿은 곳을 파악
                 ShowLaser(hit); //레이저 생성
 
-                if (TriggerCheck.GetState(handType)) //트리거를 누르면 실행
+                if (TriggerCheck.GetState(handType) && hit.transform.tag != "LaserRed") //트리거를 누르면 실행
                 {
                     hit.transform.GetComponent<ButtonClick>().OnClick();
                 }

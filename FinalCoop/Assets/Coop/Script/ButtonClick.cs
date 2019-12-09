@@ -45,7 +45,7 @@ public class ButtonClick : MonoBehaviour
             case "BackButton": //옵션 UI에서 뒤로가기를 눌렀을 경우
                 gameObject.GetComponent<OptionUIManager>().BackButton();
                 break;
-            case "ExitButton_Test": //시험 도중 UI에서 시험 종료를 눌렀을 경우
+            case "ExitGame_Test": //시험 도중 UI에서 시험 종료를 눌렀을 경우
                 gameObject.GetComponent<ExitUIManager>().ExitGame();
                 break;
 

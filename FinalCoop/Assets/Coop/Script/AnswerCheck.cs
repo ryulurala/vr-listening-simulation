@@ -17,11 +17,11 @@ public class AnswerCheck : MonoBehaviour
 
     public void GoodAnswer()
     {
-        image.sprite = goodAnswer;
+        gameObject.GetComponent<Image>().sprite = goodAnswer;
     }
 
     public void BadAnswer()
     {
-        image.sprite = badAnswer;
+        gameObject.GetComponent<Image>().sprite = badAnswer;
     }
 }
