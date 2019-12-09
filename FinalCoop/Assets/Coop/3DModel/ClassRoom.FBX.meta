@@ -6,37 +6,7 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AirConditional
-    second: {fileID: 2100000, guid: 13a1c928f8c293547908b2d67d2bb9e4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ceiling
-    second: {fileID: 2100000, guid: d82e9b8342e628948907885d7538627f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chalkboard
-    second: {fileID: 2100000, guid: fcd67f2d53058b142992f9efe32d51b4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lockerHinge
-    second: {fileID: 2100000, guid: efbef259928ed574f96d4d2308b34634, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lockerNametag
-    second: {fileID: 2100000, guid: 5413fed2cac7637478b349453af23232, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lockerWood
-    second: {fileID: 2100000, guid: 4a273bb05c8e1b64e84b928f17dceb2b, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

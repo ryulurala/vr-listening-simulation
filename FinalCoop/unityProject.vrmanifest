@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.finalcoop.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\User\\Desktop\\Co-op_Team_Project\\FinalCoop\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\User\\Desktop\\20142434\\Co-op_Team_Project\\FinalCoop\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "FinalCoop [Testing]"
