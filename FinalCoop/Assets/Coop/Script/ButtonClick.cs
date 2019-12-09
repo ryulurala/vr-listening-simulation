@@ -29,6 +29,22 @@ public class ButtonClick : MonoBehaviour
         }
     }
 
+    /*
+    private void OnEnable()
+    {
+        switch (gameObject.name)
+        {
+            case "A1":
+            case "A2":
+            case "A3":
+            case "A4":
+            case "A5":
+                toggle.isOn = false;
+                break;
+        }
+    }
+    */
+
     public void OnClick()
     {
         switch (gameObject.name) //버튼마다 실행되는 함수가 달라지게 한다.

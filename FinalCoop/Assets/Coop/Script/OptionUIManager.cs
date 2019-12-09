@@ -10,12 +10,18 @@ public class OptionUIManager : MonoBehaviour
     public GameObject personManager;
     public GameObject outsideSounds;
 
+    public GameObject player;
+    public GameObject testStartObject;
+
     public void GameStart() //시험을 시작한다.
     {
         personManager.SetActive(true); //학생, 소리 매니저를 활성화한다.
         outsideSounds.SetActive(true);
 
         testUI.SetActive(true);
+
+        player.transform.position = testStartObject.transform.position;
+
         gameObject.transform.parent.gameObject.SetActive(false);
     }
 

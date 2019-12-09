@@ -5,6 +5,7 @@ using UnityEngine;
 public class ExitUIManager : MonoBehaviour //시험 도중 게임 종료 버튼
 {
     public GameObject score; //점수 채점
+    public GameObject omr;
     public GameObject startUI; //시작 화면
 
     public GameObject personManager;
@@ -14,6 +15,7 @@ public class ExitUIManager : MonoBehaviour //시험 도중 게임 종료 버튼
     {
         score.SetActive(true);
         startUI.SetActive(true);
+        omr.SetActive(false);
 
         personManager.SetActive(false); //학생, 소리 매니저를 비활성화한다.
         outsideSounds.SetActive(false);
