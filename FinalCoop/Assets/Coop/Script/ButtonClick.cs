@@ -20,6 +20,26 @@ public class ButtonClick : MonoBehaviour
             case "A3":
             case "A4":
             case "A5":
+            case "Desk11":
+            case "Desk12":
+            case "Desk13":
+            case "Desk14":
+            case "Desk21":
+            case "Desk22":
+            case "Desk23":
+            case "Desk24":
+            case "Desk31":
+            case "Desk32":
+            case "Desk33":
+            case "Desk34":
+            case "Desk41":
+            case "Desk42":
+            case "Desk43":
+            case "Desk44":
+            case "Desk51":
+            case "Desk52":
+            case "Desk53":
+            case "Desk54":
                 toggle = gameObject.GetComponent<Toggle>();
                 break;
 
@@ -29,7 +49,6 @@ public class ButtonClick : MonoBehaviour
         }
     }
 
-    /*
     private void OnEnable()
     {
         switch (gameObject.name)
@@ -39,11 +58,11 @@ public class ButtonClick : MonoBehaviour
             case "A3":
             case "A4":
             case "A5":
+                toggle = gameObject.GetComponent<Toggle>();
                 toggle.isOn = false;
                 break;
         }
     }
-    */
 
     public void OnClick()
     {
@@ -82,6 +101,29 @@ public class ButtonClick : MonoBehaviour
             case "A3":
             case "A4":
             case "A5":
+                toggle.isOn = true;
+                break;
+
+            case "Desk11":
+            case "Desk12":
+            case "Desk13":
+            case "Desk14":
+            case "Desk21":
+            case "Desk22":
+            case "Desk23":
+            case "Desk24":
+            case "Desk31":
+            case "Desk32":
+            case "Desk33":
+            case "Desk34":
+            case "Desk41":
+            case "Desk42":
+            case "Desk43":
+            case "Desk44":
+            case "Desk51":
+            case "Desk52":
+            case "Desk53":
+            case "Desk54":
                 toggle.isOn = true;
                 break;
         }

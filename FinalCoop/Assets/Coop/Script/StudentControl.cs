@@ -48,9 +48,17 @@ public class StudentControl : MonoBehaviour
         if (SoundManager.soundManager.stationarySpeed != 0)
         {
             StartCoroutine(StationaryControl());
+        }
+        if (SoundManager.soundManager.sneezeSpeed != 0)
+        {
             StartCoroutine(SneezeControl());
+        }
+
+        if (SoundManager.soundManager.yawnSpeed != 0)
+        {
             StartCoroutine(YawnControl());
         }
+
         yield return null;
     }
     IEnumerator StationaryControl()

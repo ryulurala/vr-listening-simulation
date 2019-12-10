@@ -6,13 +6,11 @@ public class StartUIManager : MonoBehaviour
 {
     public GameObject optionUI; //옵션 선택창
     public GameObject score; //점수 채점화면(이전 게임)
-    public GameObject omr;
 
     public void StartButton() //시험 시작! 버튼. 
     {
         optionUI.SetActive(true); //옵션 선택창 활성화
         score.SetActive(false); //이전에 점수 채점화면이 있었다면 비활성화
-        omr.SetActive(true);
 
         gameObject.transform.parent.gameObject.SetActive(false); //시작 UI 비활성화
     }

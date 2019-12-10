@@ -27,7 +27,10 @@ public class Scoring : MonoBehaviour
         correctAnswer[15] = 5;
         correctAnswer[16] = 1;
         correctAnswer[17] = 3;
+    }
 
+    private void OnEnable()
+    {
         scoreCheck(omr); //채점 함수 호출
     }
 

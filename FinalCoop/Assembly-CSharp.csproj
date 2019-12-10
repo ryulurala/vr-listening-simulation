@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Coop\Script\AnswerCheck.cs" />
     <Compile Include="Assets\Coop\Script\ButtonClick.cs" />
+    <Compile Include="Assets\Coop\Script\DeskChange.cs" />
+    <Compile Include="Assets\Coop\Script\DeskCheck.cs" />
     <Compile Include="Assets\Coop\Script\ExitUIManager.cs" />
     <Compile Include="Assets\Coop\Script\LaserGeneration.cs" />
     <Compile Include="Assets\Coop\Script\LaserGenerationLeft.cs" />
