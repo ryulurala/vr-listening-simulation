@@ -21,4 +21,4 @@
 
 ---
 
-## Next page [here](<[./Process2.md?raw=true](https://github.com/ryulurala/VR_Listening-simulation/blob/master/Process.md)>)
+## Next page [here](https://github.com/ryulurala/VR_Listening-simulation/blob/master/Process.md)
