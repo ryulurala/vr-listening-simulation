@@ -12,7 +12,7 @@
 
 ## Process
 
-|                     >>                      |   >>>>>>>>>>>>>>>>>   |
+|                     >>                      | >>>>>>>>>>>>>>>>>>>>> |
 | :-----------------------------------------: | :-------------------: |
 |    ![title](./upload/title.jpg?raw=true)    |         Start         |
 |    ![start](./upload/start.gif?raw=true)    | UI - Toggle or Slicer |
@@ -21,4 +21,4 @@
 
 ---
 
-## Next page [here](./Process2.md?raw=true)
+## Next page [here](<[./Process2.md?raw=true](https://github.com/ryulurala/VR_Listening-simulation/blob/master/Process.md)>)
