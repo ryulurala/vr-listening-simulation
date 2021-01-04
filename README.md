@@ -12,12 +12,9 @@
 
 ## Process
 
-|                     >>                      | >>>>>>>>>>>>>>>>>>>>> |
-| :-----------------------------------------: | :-------------------: |
-|    ![title](./upload/title.jpg?raw=true)    |         Start         |
-|    ![start](./upload/start.gif?raw=true)    | UI - Toggle or Slicer |
-|  ![marking](./upload/marking.gif?raw=true)  |   Mark to OMR-Card    |
-| ![surround](./upload/surround.gif?raw=true) |        Finish         |
+|                 Start                 |         UI - Toggle or Slicer         |             Mark to OMR-Card              |                   Finish                    |
+| :-----------------------------------: | :-----------------------------------: | :---------------------------------------: | :-----------------------------------------: |
+| ![title](./upload/title.jpg?raw=true) | ![start](./upload/start.gif?raw=true) | ![marking](./upload/marking.gif?raw=true) | ![surround](./upload/surround.gif?raw=true) |
 
 ---
 
