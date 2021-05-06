@@ -1,8 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// by 정민기, 풀이한 시험지를 채점하는 스크립트
+/// </summary>
 public class Scoring : MonoBehaviour
 {
     private int[] correctAnswer = new int[18]; //실제 정답
@@ -35,7 +36,6 @@ public class Scoring : MonoBehaviour
     {
         for (int i = 1; i <= 17; i++) 
         {
-            //Debug.Log(correctAnswer[i]);
             if (omr.transform.GetChild(i).GetChild(correctAnswer[i] - 1).GetComponent<Toggle>().isOn) //정답번호의 토글이 true면 정답, 아니면 오답
             {
                 transform.GetChild(i + 1).GetComponent<AnswerCheck>().GoodAnswer();

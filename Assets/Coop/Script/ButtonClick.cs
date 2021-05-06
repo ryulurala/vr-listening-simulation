@@ -1,12 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// by 정민기, 옵션 선택 UI에서 토글 및 슬라이더 버튼 오브젝트의 초기설정 스크립트
+/// </summary>
 public class ButtonClick : MonoBehaviour
 {
-    private Toggle toggle;
-    private Slider slider;
+    private Toggle toggle; // 토글일 경우 토글 오브젝트로 저장
+    private Slider slider; // 슬라이더일 경우 슬라이더 오브젝트로 저장
 
     private void Start()
     {
@@ -49,6 +50,9 @@ public class ButtonClick : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 답 선택란은 게임을 새로 시작할 때마다 false로 초기화한다
+    /// </summary>
     private void OnEnable()
     {
         switch (gameObject.name)
@@ -104,7 +108,7 @@ public class ButtonClick : MonoBehaviour
                 toggle.isOn = true;
                 break;
 
-            case "Desk11":
+            case "Desk11": // 책상 선택 UI를 클릭했을 때 on
             case "Desk12":
             case "Desk13":
             case "Desk14":
@@ -127,10 +131,10 @@ public class ButtonClick : MonoBehaviour
                 toggle.isOn = true;
                 break;
 
-            case "BeforeQuestion":
+            case "BeforeQuestion": // 이전 문제 보기 버튼을 클릭했을 때 TestChange()함수를 통해 이전 문제 출력
                 gameObject.transform.parent.GetChild(1).GetComponent<TestChange>().BeforeQuestion();
                 break;
-            case "AfterQuestion":
+            case "AfterQuestion": // 다음 문제 보기 버튼을 클릭했을 때 TestChange() 함수를 통해 다음 문제 출력
                 gameObject.transform.parent.GetChild(1).GetComponent<TestChange>().AfterQuestion();
                 break;
         }

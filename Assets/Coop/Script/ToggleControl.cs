@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+/// <summary>
+/// by 정민기, 옵션 선택 UI에서 높음, 낮음, 없음 선택지 설정 스크립트
+/// </summary>
 public class ToggleControl : MonoBehaviour
 {
 
